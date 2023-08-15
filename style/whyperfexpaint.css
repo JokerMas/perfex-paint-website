@@ -1,0 +1,41 @@
+.why-perfex-paint {
+  text-align: center;
+  font: 1.75rem;
+  font-weight: bold;
+  padding: 20px 0 100px 0;
+  text-wrap: balance;
+}
+.grid-container {
+  display: grid;
+  width: 80%;
+  min-height: 400px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 8%;
+  row-gap: 4%;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.flex .icon {
+  height: 30%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
+.flex .icon-text {
+  height: 70%;
+  min-height: 100px;
+}
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
