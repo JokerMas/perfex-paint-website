@@ -1,5 +1,4 @@
 /* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 .slider-container {
   display: flex;
@@ -22,7 +21,7 @@
   height: 50px;
   width: 50px;
   cursor: pointer;
-  font-size: 1.25rem;
+
   position: absolute;
   text-align: center;
   line-height: 50px;
@@ -80,14 +79,13 @@
   border-radius: 8px;
 }
 .carousell .cardd .img {
-  width: 50%;
+  width: 40%;
   min-width: 200px;
 }
 .cardd .img img {
   width: 100%;
   height: 100%;
-
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 900px) {

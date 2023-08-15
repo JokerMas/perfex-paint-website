@@ -4,6 +4,8 @@
   font-weight: bold;
   padding: 20px 0 100px 0;
   text-wrap: balance;
+  background-color: #084684;
+  color: white;
 }
 .grid-container {
   display: grid;

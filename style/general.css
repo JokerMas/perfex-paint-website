@@ -1,5 +1,7 @@
 body {
   font-size: 1.3rem;
+  font-family: 'Noto Sans Khmer', 'Ubuntu', 'Nokora', 'Arial', 'Khmer',
+    'sans-serif';
 }
 @media (max-width: 900px) {
   body {
