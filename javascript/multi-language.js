@@ -1,5 +1,5 @@
 let langs = document.querySelector('.langs');
-let link = document.querySelectorAll('a');
+let link = document.querySelectorAll('.a');
 let title = document.getElementById('title');
 let home = document.getElementById('home');
 let product = document.getElementById('product');
