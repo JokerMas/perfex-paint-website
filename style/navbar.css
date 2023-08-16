@@ -4,4 +4,8 @@
 .text-space {
   margin: 0;
   padding: 0;
+  transition: color 0.15s ease;
+}
+.text-space:hover {
+  color: #084684;
 }
