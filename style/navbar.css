@@ -3,7 +3,7 @@
 }
 .text-space {
   margin: 0;
-  padding: 0;
+  padding: 10px 5px;
   transition: color 0.15s ease;
 }
 .text-space:hover {

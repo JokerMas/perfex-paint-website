@@ -3,7 +3,37 @@ body {
   font-family: 'Noto Sans Khmer', 'Ubuntu', 'Nokora', 'Arial', 'Khmer',
     'sans-serif';
 }
-
+.bg-red {
+  background-color: #ed1c24;
+}
+.text-red {
+  color: #ed1c24;
+}
+.text-blue {
+  color: #084684;
+}
+.general-product-title {
+  background-image: url('../images/body-background-1.jpg');
+  background-size: auto 200px;
+  background-position: top 50% left 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+  font-size: 1.75rem;
+  box-shadow: 0 0 8px 8px white inset;
+}
+.general-color-ideas-title {
+  background-image: url('../images/body-background-3.jpg');
+  background-size: auto 400px;
+  background-position: top 40% left 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0;
+  color: black;
+  font-size: 1.75rem;
+  box-shadow: 0 0 8px 8px white inset;
+}
 @media (max-width: 900px) {
   body {
     font-size: 1.1rem;

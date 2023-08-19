@@ -1,14 +1,8 @@
 .language-style-en {
-  position: fixed;
-  z-index: 2;
-  bottom: 30px;
-  right: 80px;
   margin: 4px;
+  width: 40px;
 }
 .language-style-kh {
-  position: fixed;
-  z-index: 2;
-  bottom: 30px;
-  right: 10px;
   margin: 4px;
+  width: 40px;
 }

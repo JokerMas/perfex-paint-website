@@ -1,0 +1,11 @@
+.contact-us-title {
+  text-align: center;
+  padding: 100px 0 25px 0;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+.contact-us-ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}

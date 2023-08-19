@@ -1,27 +1,21 @@
-/* Import Google font - Poppins */
-
-.slider-container {
+.slider-container-1 {
+  box-sizing: border-box;
   display: flex;
   padding: 0 35px;
-  width: 100%;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
-.wrapper {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  max-width: 100%;
+.wrapperr {
   width: 100%;
   position: relative;
 }
-.wrapper i {
+.wrapperr i {
   top: 50%;
   height: 50px;
   width: 50px;
   cursor: pointer;
-
+  font-size: 1.25rem;
   position: absolute;
   text-align: center;
   line-height: 50px;
@@ -31,23 +25,21 @@
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 }
-.wrapper i:active {
+.wrapperr i:active {
   transform: translateY(-50%) scale(0.85);
 }
-.wrapper i:first-child {
+.wrapperr i:first-child {
   left: -22px;
 }
-.wrapper i:last-child {
+.wrapperr i:last-child {
   right: -22px;
 }
-.wrapper .carousell {
+.wrapperr .carousell {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: calc((100% / 3) - 12px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 16px;
-  border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
@@ -72,30 +64,35 @@
 }
 .carousell .cardd {
   scroll-snap-align: start;
-  height: 400px;
+  height: 342px;
+  padding-left: 13%;
   list-style: none;
   cursor: pointer;
   flex-direction: column;
-  border-radius: 8px;
 }
 .carousell .cardd .img {
-  width: 40%;
-  min-width: 200px;
+  height: 80%;
+  width: 148px;
 }
 .cardd .img img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+
+  object-fit: cover;
+}
+.carousell .cardd h2 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 30px 0 5px;
 }
 
 @media screen and (max-width: 900px) {
-  .wrapper .carousell {
+  .wrapperr .carousell {
     grid-auto-columns: calc((100% / 2) - 9px);
   }
 }
 
 @media screen and (max-width: 600px) {
-  .wrapper .carousell {
+  .wrapperr .carousell {
     grid-auto-columns: 100%;
   }
 }

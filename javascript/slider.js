@@ -1,7 +1,7 @@
-const wrapper = document.querySelector('.wrapper');
+const wrapper = document.querySelector('.wrapperr');
 const carousel = document.querySelector('.carousell');
 const firstCardWidth = carousel.querySelector('.cardd').offsetWidth;
-const arrowBtns = document.querySelectorAll('.wrapper i');
+const arrowBtns = document.querySelectorAll('.wrapperr i');
 const carouselChildrens = [...carousel.children];
 
 let isDragging = false,
