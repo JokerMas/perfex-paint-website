@@ -88,6 +88,7 @@
   font-weight: 500;
   font-size: 1.3rem;
   margin: 5px;
+  color: black;
 }
 
 @media screen and (max-width: 900px) {
