@@ -3,6 +3,7 @@ body {
   font-family: 'Noto Sans Khmer', 'Ubuntu', 'Nokora', 'Arial', 'Khmer',
     'sans-serif';
 }
+
 .bg-red {
   background-color: #ed1c24;
 }
@@ -26,10 +27,10 @@ body {
 .general-color-ideas-title {
   background-image: url('../images/body-background-3.jpg');
   background-size: auto 400px;
-  background-position: top 40% left 50%;
+  background-position: top 30% left 50%;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 40px 0;
   color: black;
   font-size: 1.75rem;
   box-shadow: 0 0 8px 8px white inset;

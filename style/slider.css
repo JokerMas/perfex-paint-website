@@ -57,6 +57,7 @@
   cursor: grab;
   user-select: none;
 }
+
 .carousell :where(.cardd, .img) {
   display: flex;
   justify-content: center;
@@ -70,6 +71,10 @@
   cursor: pointer;
   flex-direction: column;
 }
+.carousell .cardd a {
+  text-decoration: underline;
+  color: black;
+}
 .carousell .cardd .img {
   height: 80%;
   width: 148px;
@@ -82,7 +87,7 @@
 .carousell .cardd h2 {
   font-weight: 500;
   font-size: 1.3rem;
-  margin: 30px 0 5px;
+  margin: 5px;
 }
 
 @media screen and (max-width: 900px) {
