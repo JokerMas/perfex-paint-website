@@ -1,4 +1,11 @@
 .slideshow-adjustment {
   object-fit: cover;
   max-height: 500px;
+  min-height: 350px;
+}
+.carousel-control-next-icon {
+  background-image: url('../images/next.svg');
+}
+.carousel-control-prev-icon {
+  background-image: url('../images/prev.svg');
 }

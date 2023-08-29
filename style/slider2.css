@@ -10,9 +10,11 @@
   margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
+  min-height: 349px;
 }
 .card {
   border-radius: 25px;
+  width: 100%;
   background-color: #fff;
 }
 .image-content,
@@ -21,35 +23,14 @@
   flex-direction: column;
   align-items: center;
   padding: 0px 14px;
+  height: 349px;
 }
 .image-content {
   position: relative;
   row-gap: 5px;
   padding: 0px 0;
 }
-.overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #4070f4;
-  border-radius: 25px 25px 0 25px;
-}
-.overlay::before,
-.overlay::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: -40px;
-  height: 40px;
-  width: 40px;
-  background-color: #4070f4;
-}
-.overlay::after {
-  border-radius: 0 25px 0 0;
-  background-color: #fff;
-}
+
 .card-image {
   position: relative;
   height: 100%;
@@ -62,7 +43,7 @@
 .card-image .card-img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .swiper-navBtn {

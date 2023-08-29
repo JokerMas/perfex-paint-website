@@ -15,8 +15,14 @@
 .text-white {
   color: white;
 }
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer-icon a {
   color: white;
+  text-decoration: none;
 }
 .footer-icon a:hover {
   color: #084684;

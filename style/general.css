@@ -3,7 +3,6 @@ body {
   font-family: 'Noto Sans Khmer', 'Ubuntu', 'Nokora', 'Arial', 'Khmer',
     'sans-serif';
 }
-
 .bg-red {
   background-color: #ed1c24;
 }
@@ -13,30 +12,41 @@ body {
 .text-blue {
   color: #084684;
 }
-.general-product-title {
-  background-image: url('../images/body-background-1.jpg');
-  background-size: auto 200px;
-  background-position: top 50% left 50%;
-  background-repeat: no-repeat;
+.general-title {
   text-align: center;
-  padding: 100px 0;
-  color: white;
+  padding: 70px 0;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.75rem;
+  box-shadow: 0 0 8px 8px white inset;
+}
+.general-product-title {
+  text-align: center;
+  padding: 70px 0;
+  text-decoration: underline;
+  font-weight: bold;
   font-size: 1.75rem;
   box-shadow: 0 0 8px 8px white inset;
 }
 .general-color-ideas-title {
-  background-image: url('../images/body-background-3.jpg');
-  background-size: auto 400px;
-  background-position: top 30% left 50%;
-  background-repeat: no-repeat;
   text-align: center;
-  padding: 100px 0 40px 0;
-  color: black;
+  padding: 70px 0 70px 0;
+  text-decoration: underline;
   font-size: 1.75rem;
-  box-shadow: 0 0 8px 8px white inset;
+  font-weight: bold;
 }
-@media (max-width: 900px) {
+.general-margin-auto {
+  max-width: 1519px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
   body {
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 0.8rem;
   }
 }

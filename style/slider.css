@@ -72,8 +72,8 @@
   flex-direction: column;
 }
 .carousell .cardd a {
-  text-decoration: underline;
   color: black;
+  text-decoration: none;
 }
 .carousell .cardd .img {
   height: 80%;
@@ -90,7 +90,11 @@
   margin: 5px;
   color: black;
 }
-
+.carousell .cardd h2:hover {
+  font-size: 1.3rem;
+  margin: 5px;
+  color: #084684;
+}
 @media screen and (max-width: 900px) {
   .wrapperr .carousell {
     grid-auto-columns: calc((100% / 2) - 9px);
