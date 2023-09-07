@@ -43,3 +43,14 @@ li a p:hover::after {
 .max-width {
   max-width: 1519px;
 }
+.navbar-brand {
+  margin: 0;
+}
+@media (max-width: 376px) {
+  .navbar-brand {
+    width: 80%;
+  }
+}
+.navbar-brand img {
+  width: 100%;
+}
