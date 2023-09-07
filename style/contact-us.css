@@ -10,3 +10,8 @@
   text-align: center;
   padding: 0;
 }
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

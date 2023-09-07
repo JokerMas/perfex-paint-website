@@ -5,19 +5,13 @@
   color: white;
   text-decoration: none;
 }
-.background-img {
-  background-image: url('../images/footer-background-1.png');
-  background-repeat: no-repeat;
-  background-position: left -140px top -200px;
-  background-size: 450px;
-}
 
 .text-white {
   color: white;
 }
 .footer-icon {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .footer-icon a {
@@ -26,4 +20,31 @@
 }
 .footer-icon a:hover {
   color: #084684;
+}
+.footer-left-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  text-align: left;
+}
+.footer-img-logo {
+  width: 100%;
+  padding: 4em;
+  margin-left: 5%;
+}
+@media (max-width: 768px) {
+  .footer-img-logo {
+    padding: 0;
+    margin-left: 0%;
+  }
+}
+.footer-padding {
+  padding: 20px 20px 20px 20px;
 }
